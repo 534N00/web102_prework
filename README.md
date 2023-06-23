@@ -25,7 +25,7 @@ then hid the scrollbars since they weren't necessary.
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/i4a0aaE' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/a/i4a0aaE' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap.
