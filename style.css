@@ -2,7 +2,16 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #8893a0;
+
+    /* Hide scrollbar for IE, Edge, and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #tentacles {
@@ -10,13 +19,39 @@ body {
 }
 
 .header {
+    position: fixed; top: 0%;
+    width: 100%;
     display: flex;
     background-color: lightblue;
-    padding: 1%;
+    padding: 0.25%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 1.5%;
+}
+
+nav ul a{
+    text-decoration: none;
+    outline: none;
+}
+
+#left-nav {
+    float:left;
+    padding: 7px;}
+
+#right-nav {
+    float:right;
+    padding: 7px;
+}
+
+.not-header {
+    /* Give space since header is fixed */
+    margin-top: 7%;
 }
 
 .stats-container {
